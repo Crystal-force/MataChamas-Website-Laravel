@@ -1,0 +1,10 @@
+.auth-menu {
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 995px) {
+  .slider-content {
+    display: block;
+  }
+}
