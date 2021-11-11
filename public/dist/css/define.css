@@ -1,0 +1,30 @@
+.select-user-logo {
+    display: flex;
+    justify-content: center;
+}
+
+.select-user-area {
+    width: 100%;
+    background-color: #ccc;
+    padding: 1rem
+}
+
+.user-icon {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.user-icon i {
+    color: #cc0303;
+    font-size: 60px;
+}
+.select-btn {
+  font-size: 12px !important;
+}
+.select-sm-title {
+  color: rgb(32, 30, 30);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+}

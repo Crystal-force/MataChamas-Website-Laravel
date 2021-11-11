@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <!-- Favicon icon -->
-    <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/favicon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/logo/favicon.png">
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>Mata Chamas</title>
     
@@ -21,9 +21,8 @@
           <p class="loader__label">Mata Chamas...</p>
       </div>
     </div>
-    
+
     @yield('content')
     @include('script.script')
   </body>
-
 </html>
