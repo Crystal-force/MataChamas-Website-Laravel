@@ -725,7 +725,7 @@
 
     <script>
         function UserLogon() {
-            window.location.href="/login";
+            window.location.href="/select-user";
         }
     </script>
 

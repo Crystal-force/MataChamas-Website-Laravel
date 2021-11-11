@@ -15,4 +15,4 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', 'HomeController@Index');
 
-Route::get('/login', 'Auth\LoginController@Index');
+Route::get('/select-user', 'SelectUserController@Index');
