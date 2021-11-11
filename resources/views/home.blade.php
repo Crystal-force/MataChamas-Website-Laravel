@@ -79,8 +79,8 @@
                                     <li><a href="#feature+_area">Recursos</a></li>
                                     <li><a href="#about_us">Sobre nós</a></li>
                                     <li><a href="#membership">Filiação</a></li>
-                                    <li><a href="javascript:;">Contato</a></li>
-                                    <li class='auth-menu'><button type="button" class="sub-btn login-btn">Conecte-se</button></li>
+                                    <li><a href="#contact">Contato</a></li>
+                                    <li class='auth-menu'><button type="button" class="sub-btn login-btn" onclick="UserLogon()">Conecte-se</button></li>
                                 </ul>
                             </div>
                         </div>
@@ -99,7 +99,7 @@
                                 <li><a href="#about_us">Sobre nós</a></li>
                                 <li><a href="#membership">Filiação</a></li>
                                 <li><a href="javascript:;">Contato</a></li>
-                                <li class='auth-menu'><button type="button" class="sub-btn">Conecte-se</button></li>
+                                <li class='auth-menu'><button type="button" class="sub-btn login-btn" onclick="UserLogon()">Conecte-se</button></li>
                             </ul>
                         </nav>
                     </div>  
@@ -348,7 +348,7 @@
         <!-- End of Google Map Area -->
 
         <!--Start Our Contact Us Area -->
-        <div class="our-contact-us-area bg-white">
+        <div class="our-contact-us-area bg-white" id="contact">
             <div class="container">
                 <div class="contact-wrap ptb-100 bg-white xtb-60">
                     <div class="row">
@@ -720,6 +720,12 @@
                 animation:google.maps.Animation.BOUNCE
 
             });
+        }
+    </script>
+
+    <script>
+        function UserLogon() {
+            window.location.href="/login";
         }
     </script>
 

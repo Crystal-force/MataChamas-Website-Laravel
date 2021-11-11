@@ -69,6 +69,9 @@
 }
 
 @media (max-width: 995px) {
+  .container {
+    width: auto;
+  }
     .slider-content {
         display: block;
     }
