@@ -99,7 +99,7 @@
                                 <li><a href="#about_us">Sobre nós</a></li>
                                 <li><a href="#membership">Filiação</a></li>
                                 <li><a href="javascript:;">Contato</a></li>
-                                <li class='auth-menu'><button type="button" class="sub-btn login-btn" onclick="UserLogon()">Conecte-se</button></li>
+                                <li class='auth-menu'><button type="button" class="sub-btn login-btn" onclick="UserSelection()">Conecte-se</button></li>
                             </ul>
                         </nav>
                     </div>  
@@ -129,7 +129,6 @@
                                         </div>
                                     </div>
                                 </div>
-                                
                             </div>
                         </div>
                     </div>
@@ -724,7 +723,7 @@
     </script>
 
     <script>
-        function UserLogon() {
+        function UserSelection() {
             window.location.href="/select-user";
         }
     </script>

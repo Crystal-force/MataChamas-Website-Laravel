@@ -7,5 +7,11 @@ use Illuminate\Http\Request;
 
 class RegisterController extends Controller
 {
-    //
+    public function Index(Request $request) {
+        $role = $request->id;
+        
+        return view('auth.register')->with([
+            'role' => $role,
+        ]);
+    }
 }

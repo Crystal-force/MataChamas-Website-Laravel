@@ -9,6 +9,8 @@ class Roles extends Model
     public $fillable = [
         'id',
         'user_type',
-        'role'
+        'role',
+        'explain',
+        'icon'
     ];
 }

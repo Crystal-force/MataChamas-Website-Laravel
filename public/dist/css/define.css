@@ -28,3 +28,11 @@
   font-size: 16px;
   font-weight: 600;
 }
+.already-account {
+  margin-top: 1rem;
+  color: black;
+  text-align: center;
+}
+.already-account a{
+  color: #cc0303
+}
