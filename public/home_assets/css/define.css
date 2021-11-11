@@ -1,10 +1,78 @@
+.bg-fire {
+    background: #cc0303 !important;
+}
+
+.font-fire {
+    color: #cc0303
+}
+
+.action-btn {
+    background-color: transparent;
+    border: 2px solid #cc0303;
+    color: #fff;
+}
+.action-btn::before {
+  background-color: #cc0303;
+}
+.feature-icon {
+  font-size:60px;
+  color:#ffae42 !important
+}
+.blog-title {
+  color:#ffae42 !important
+}
+.contact-icon {
+  background-color:#ffae42 !important
+}
+.login-btn {
+    background: #cc0303 !important;
+    font-weight: 600 !important;
+}
+
+.login-btn:hover {
+    background: #f51a1a !important;
+}
+
 .auth-menu {
+    display: flex;
+    align-items: center;
+}
+.member-area {
+  padding: 1.5rem;
+  border: solid 4px #dedddd;
+  border-radius: 5px;
+  margin-top: 2rem;
+}
+.member-area:hover {
+  padding: 1.5rem;
+  border: solid 4px #ffae42
+}
+.member-area h2 {
+  margin-bottom: 1rem;
+  text-align: left;
+  color: #ffae42;
+  font-weight: 600;
+}
+.member-sm-title {
+  color: rgb(46, 45, 45) !important;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+.member-content {
+  font-style: italic;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+}
+.member-area div {
   display: flex;
-  align-items: center;
+  justify-content: center;
 }
 
 @media (max-width: 995px) {
-  .slider-content {
-    display: block;
+  .container {
+    width: auto;
   }
+    .slider-content {
+        display: block;
+    }
 }
