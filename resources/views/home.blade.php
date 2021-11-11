@@ -420,50 +420,36 @@
             <div class="footer-top-area pb-50">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-2 col-lg-2 col-sm-6 col-xs-12">
+                        <div class="col-md-4 col-lg-4 col-sm-6 col-xs-12">
                             <div class="foo-single-widget">
                                 <div class="footer-title">
-                                    <h2>Customer Care</h2>
+                                    <h2>Servico de atendimento ao Consumidor</h2>
                                 </div>
                                 <ul>
-                                    <li><a href="#">Terms & Condition</a></li>
-                                    <li><a href="#">Contact Us</a></li>
-                                    <li><a href="#">Shipping Charge</a></li>
-                                    <li><a href="#">Shipping Tract</a></li>
-                                    <li><a href="#">Payment Method</a></li>
+                                    <li><a href="#">Termos e Condições</a></li>
+                                    <li><a href="#">Entre em contato conosco</a></li>
+                                    <li><a href="#">Como funciona</a></li>
+                                    <li><a href="#">Torne-se Membro</a></li>
+                                    <li><a href="#">Forma de pagamento</a></li>
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-md-2 col-md-offset-1 col-lg-2 col-lg-offset-1 col-sm-6 col-xs-12">
-                            <div class="foo-single-widget border-left">
+                        <div class="col-md-4 col-md-offset-1 col-lg-2 col-lg-offset-1 col-sm-6 col-xs-12">
+                            <div class="foo-single-widget smmt-30">
                                 <div class="footer-title">
-                                    <h2>Your Account</h2>
+                                    <h2>Suporte</h2>
                                 </div>
                                 <ul>
-                                    <li><a href="#">My Account</a></li>
-                                    <li><a href="#">Affiliate Dashboard</a></li>
-                                    <li><a href="#">Billing Address</a></li>
-                                    <li><a href="#">Cancel Order</a></li>
-                                    <li><a href="#">Cancel Order</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-md-2 col-md-offset-1 col-lg-2 col-lg-offset-1 col-sm-6 col-xs-12">
-                            <div class="foo-single-widget border-left smmt-30">
-                                <div class="footer-title">
-                                    <h2>Shop Information</h2>
-                                </div>
-                                <ul>
-                                    <li><a href="#">About company</a></li>
-                                    <li><a href="#">Become Member</a></li>
-                                    <li><a href="#">License Details</a></li>
-                                    <li><a href="#">Tax Information</a></li>
-                                    <li><a href="#">Job & Vacancics</a></li>
+                                    <li><a href="#">Sobre companhia</a></li>
+                                    <li><a href="#">Torne-se Membro</a></li>
+                                    <li><a href="#">Centro de ajuda</a></li>
+                                    <li><a href="#">Blog</a></li>
+                                    <li><a href="#">Políticas do Sistema</a></li>
                                 </ul>
                             </div>
                         </div>
                         <div class="col-md-3 col-md-offset-1 col-lg-3 col-lg-offset-1 col-sm-6 col-xs-12">
-                            <div class="foo-single-widget border-left smmt-30">
+                            <div class="foo-single-widget smmt-30">
                                 <div class="logo">
                                     <img src="home_assets/images/logo/footer-logo.png" alt="logo images">
                                 </div>
