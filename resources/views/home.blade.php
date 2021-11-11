@@ -15,6 +15,8 @@
     <link rel="apple-touch-icon" href="home_assets/images/logo/favicon.png">
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
     <!-- All css files are included here. -->
     <!-- Bootstrap fremwork main css -->
     <link rel="stylesheet" href="home_assets/css/bootstrap.min.css">
@@ -127,6 +129,7 @@
                                         </div>
                                     </div>
                                 </div>
+                                
                             </div>
                         </div>
                     </div>
@@ -263,21 +266,44 @@
         </section>
         <!-- End of About Area -->
 
+        <!-- End of Membership Area -->
         <section id="membership" class="tf-about-area ptb-100 bg-white xtb-60">
             <div class="container">
                 <div class="section-title text-center">
-                    <h2 class="title-line blog-title">Filiação</h2>
+                    <h2 class="title-line blog-title m-b-2">Filiação</h2>
                 </div>
                 <div class="row">
-                    <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
-                        
+                    <div class="col-md-2 col-lg-2">
                     </div>
-                    <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
-                        
+                    <div class="col-md-4 col-lg-4 col-sm-6 col-xs-12">
+                        <div class="member-area">
+                            <h2>Serviço gratuito</h2>
+                            <p class="member-sm-title">Use sem Limitações Gratuitamente por 30 dias</p>
+                            <p class="member-content">Ótimo para usuários que são novos neste sistema e desejam multiplicar suas chances.
+                                Divirta-se com este sistema.
+                            </p>
+                            <div class="tsf-button">
+                                <a href="#" class="tf-button action-btn">Registro</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-lg-4 col-sm-6 col-xs-12">
+                        <div class="member-area">
+                            <h2>Serviço de taxa</h2>
+                            <p class="member-sm-title">Plano Mensal</p>
+                            <p class="member-content">Perfeito para usuários em tempo integral que desejam aproveitar ao máximo o sistema Mata Chamas.
+                                Projetado para usuários que desejam continuar crescendo.</p>
+                            <div class="tsf-button">
+                                <a href="#" class="tf-button action-btn">Registro</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-lg-2">
                     </div>
                 </div>
             </div>
         </section>
+        <!-- End of Membership Area -->
 
 
         <!-- Start of Brand Area -->
@@ -704,7 +730,7 @@
                 position: new google.maps.LatLng(23.7286, 90.3854),
                 map: map,
                 title: 'Tasfiu!',
-                icon: 'images/icons/map.png',
+                icon: 'home_assets/images/icons/map.png',
                 animation:google.maps.Animation.BOUNCE
 
             });
