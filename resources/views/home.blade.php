@@ -80,7 +80,7 @@
                                     <li><a href="#about_us">Sobre nós</a></li>
                                     <li><a href="#membership">Filiação</a></li>
                                     <li><a href="#contact">Contato</a></li>
-                                    <li class='auth-menu'><button type="button" class="sub-btn login-btn" onclick="UserLogon()">Conecte-se</button></li>
+                                    <li class='auth-menu'><button type="button" class="sub-btn login-btn" onclick="UserSelection()">Conecte-se</button></li>
                                 </ul>
                             </div>
                         </div>
@@ -125,7 +125,7 @@
                                         </h1>
                                         <p>Uma comunidade onde empresas e profissionais podem dar seus orçamentos para postagens de clientes de serviços.</p>
                                         <div class="tsf-button">
-                                            <a href="#" class="tf-button action-btn">Registro</a>
+                                            <a href="/login" class="tf-button action-btn">Registro</a>
                                         </div>
                                     </div>
                                 </div>
@@ -249,7 +249,7 @@
 
                                     <p class="ad-second-pra">Faça pedidos de produtos e serviços que é usado para criar: Ordem de Retirada, Ordem de Serviço e Nota Fiscal</p>
                                     <div class="tsf-button">
-                                        <a href="#" class="tf-button action-btn">Registro</a>
+                                        <a href="/login" class="tf-button action-btn">Registro</a>
                                     </div>
                                 </div>
                             </div>
@@ -282,7 +282,7 @@
                                 Divirta-se com este sistema.
                             </p>
                             <div class="tsf-button">
-                                <a href="#" class="tf-button action-btn">Registro</a>
+                                <a href="/login" class="tf-button action-btn">Registro</a>
                             </div>
                         </div>
                     </div>
@@ -293,7 +293,7 @@
                             <p class="member-content">Perfeito para usuários em tempo integral que desejam aproveitar ao máximo o sistema Mata Chamas.
                                 Projetado para usuários que desejam continuar crescendo.</p>
                             <div class="tsf-button">
-                                <a href="#" class="tf-button action-btn">Registro</a>
+                                <a href="/login" class="tf-button action-btn">Registro</a>
                             </div>
                         </div>
                     </div>
@@ -724,7 +724,7 @@
 
     <script>
         function UserSelection() {
-            window.location.href="/select-user";
+            window.location.href="/login";
         }
     </script>
 

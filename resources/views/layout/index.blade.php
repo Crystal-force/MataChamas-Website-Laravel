@@ -14,7 +14,7 @@
     
     @include('style.style')
   </head>
-  <body class="skin-default card-no-border">
+  <body class="skin-default-dark fixed-layout">
     <div class="preloader">
       <div class="loader">
           <div class="loader__figure"></div>

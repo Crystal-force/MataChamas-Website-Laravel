@@ -15,10 +15,7 @@ class CreateRolesTable extends Migration
     {
         Schema::create('roles', function (Blueprint $table) {
             $table->id();
-            $table->string('user_type');
             $table->string('role');
-            $table->string('explain');
-            $table->string('icon');
             $table->timestamps();
         });
     }
