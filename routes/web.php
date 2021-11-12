@@ -15,6 +15,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', 'HomeController@Index');
 
-Route::get('/select-user', 'SelectUserController@Index');
 Route::get('/login', 'Auth\LoginController@Index')->name('login');
-Route::get('register/{id?}', 'Auth\RegisterController@Index')->name('register');
+Route::get('/register', 'Auth\RegisterController@Index')->name('register');
+
+Route::post('/login', 'Auth\LoginController@Login');
