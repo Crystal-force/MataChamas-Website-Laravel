@@ -8,7 +8,7 @@
     <section id="wrapper" class="login-register login-sidebar" style="background-image:url(../assets/images/background/login-register.jpg);">
       <div class="login-box card">
           <div class="card-body">
-              <form class="form-horizontal form-material text-center" id="loginform" action="/login" method="POST">
+              <form class="form-horizontal form-material text-center" id="loginform">
                   <a href="javascript:void(0)" class="db"><img src="../assets/images/logo/logo.png" alt="Home" /></a>
                   <div class="form-group  m-t-40">
                       <div class="col-xs-12">
@@ -35,7 +35,7 @@
                   </div>
                   <div class="form-group text-center m-t-20">
                       <div class="col-xs-12">
-                          <button class="btn btn-danger btn-lg btn-block text-uppercase btn-rounded" type="submit">Conecte-se</button>
+                          <button class="btn btn-danger btn-lg btn-block text-uppercase btn-rounded" type="button" onclick="Login()">Conecte-se</button>
                       </div>
                   </div>
                   <div class="row">
@@ -73,5 +73,11 @@
           </div>
       </div>
     </section>
+
+    <script>
+      function Login() {
+        window.location.href="dashboard"
+      }
+    </script>
 
 @endsection
