@@ -21,7 +21,7 @@
                       <!-- text-->
                       <div class="dropdown-divider"></div>
                       <!-- text-->
-                      <a href="pages-login.html" class="dropdown-item"><i class="fas fa-power-off"></i> Logout</a>
+                      <a href="/logout" class="dropdown-item"><i class="fas fa-power-off"></i> Logout</a>
                       <!-- text-->
                   </div>
               </div>

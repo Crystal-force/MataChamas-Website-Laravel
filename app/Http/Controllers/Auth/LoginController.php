@@ -33,4 +33,9 @@ class LoginController extends Controller
         }
         // return view('create.dashboard');
     }
+
+    public function LogOut() {
+        Auth::logout();
+        return Redirect::to('/');
+    }
 }
