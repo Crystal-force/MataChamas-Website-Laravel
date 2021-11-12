@@ -18,4 +18,6 @@ Route::get('/', 'HomeController@Index');
 Route::get('/login', 'Auth\LoginController@Index')->name('login');
 Route::get('/register', 'Auth\RegisterController@Index')->name('register');
 
-Route::get('/dashboard', 'Auth\LoginController@Login');
+Route::post('/register', 'Auth\RegisterController@Register');
+
+Route::get('/dashboard', 'DashboardController@Index');
