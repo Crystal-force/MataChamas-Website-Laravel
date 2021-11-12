@@ -22,15 +22,15 @@ class LoginController extends Controller
         }
     }
 
-    // public function Login(Request $request) {
-    //     $userauthed = $request->only('name', 'email', 'password');
-    //     dd($userauthed);
-    //     if(Auth::attempt($userauthed)) {
-    //         return response()->json(['data' => '1']);
-    //     }
-    //     else {
-    //         return response()->json(['data' => '0']);
-    //     }
-    //     // return view('create.dashboard');
-    // }
+    public function Login(Request $request) {
+        $userauthed = $request->only('email', 'password');
+  
+        if(Auth::attempt($userauthed)) {
+            return response()->json(['data' => '1']);
+        }
+        else {
+            return response()->json(['data' => '0']);
+        }
+        // return view('create.dashboard');
+    }
 }

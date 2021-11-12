@@ -110,7 +110,7 @@
                     });
 
                     setTimeout(function() { 
-                        window.location.href="/login";
+                        window.location.href="/dashboard";
                     }, 3000);
                   }
                   else {

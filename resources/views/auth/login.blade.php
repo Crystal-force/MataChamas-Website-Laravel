@@ -12,12 +12,12 @@
                   <a href="javascript:void(0)" class="db"><img src="../assets/images/logo/logo.png" alt="Home" /></a>
                   <div class="form-group  m-t-40">
                       <div class="col-xs-12">
-                          <input class="form-control" type="text" required="" placeholder="Nome do usuário">
+                          <input class="form-control" type="text" required="" placeholder="O email" id="email">
                       </div>
                   </div>
                   <div class="form-group">
                       <div class="col-xs-12">
-                          <input class="form-control" type="password" required="" placeholder="Senha">
+                          <input class="form-control" type="password" required="" placeholder="Senha" id="password">
                       </div>
                   </div>
                   <div class="form-group row">
@@ -35,7 +35,7 @@
                   </div>
                   <div class="form-group text-center m-t-20">
                       <div class="col-xs-12">
-                          <button class="btn btn-danger btn-lg btn-block text-uppercase btn-rounded" type="button" onclick="Login()">Conecte-se</button>
+                          <button class="btn btn-danger btn-lg btn-block text-uppercase btn-rounded" type="submit">Conecte-se</button>
                       </div>
                   </div>
                   <div class="row">
@@ -74,10 +74,59 @@
       </div>
     </section>
 
+
+    <script src="../assets/node_modules/jquery/jquery-3.2.1.min.js"></script>
     <script>
-      function Login() {
-        window.location.href="dashboard"
-      }
+      $("#loginform").on('submit', function(e) {
+            e.preventDefault();
+
+            var email = '';
+            var password = '';
+
+            email = $("#email").val();
+            password = $('#password').val();
+            
+            $.ajaxSetup({
+                headers: {
+                    'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+                }
+            });
+
+            $.ajax({
+                url: 'login',
+                method: 'POST',
+                data: {
+                    email: email,
+                    password: password
+                },
+                dataType: false,
+                success: function(response) {
+                    if(response.data) {
+                        $.toast({
+                            heading: 'Bem-vindo ao Mata Chamas!',
+                            text: 'Você logou com sucesso.',
+                            position: 'top-center',
+                            loaderBg:'#ff6849',
+                            icon: 'success',
+                            hideAfter: 3500
+                        });
+                        setTimeout(function() { 
+                            window.location.href="/dashboard";
+                        }, 3000);
+                    }
+                    else {
+                        $.toast({
+                            heading: 'Um pequeno erro',
+                            text: 'A informação está incorreta. Por favor cheque novamente.',
+                            position: 'top-center',
+                            loaderBg:'#ff6849',
+                            icon: 'error',
+                            hideAfter: 3500
+                        });
+                    }
+                }
+            });
+      });
     </script>
 
 @endsection
